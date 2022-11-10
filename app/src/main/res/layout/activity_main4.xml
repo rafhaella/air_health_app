@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="324dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="130dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_air_health" />
+
+    <TextView
+        android:id="@+id/txt16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="@string/txt16"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout1"
+        android:layout_width="361dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt16">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:fontFamily="@font/ubuntu"
+            android:hint="Nome"
+            android:inputType="textCapWords"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="361dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:fontFamily="@font/ubuntu"
+            android:hint="CPF"
+            android:inputType="number"
+            android:singleLine="true"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="361dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:fontFamily="@font/ubuntu"
+            android:hint="Data de nascimento"
+            android:inputType="date"
+            android:singleLine="true" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout4"
+        android:layout_width="361dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:fontFamily="@font/ubuntu"
+            android:hint="Telefone"
+            android:inputType="phone"
+            android:singleLine="true"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout5"
+        android:layout_width="361dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:cursorVisible="true"
+            android:fontFamily="@font/ubuntu"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn04"
+        android:layout_width="171dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Confirmar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

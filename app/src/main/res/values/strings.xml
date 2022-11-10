@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">AirHealth</string>
+    <string name="logo">drawable/logo_air_health.png</string>
+    <string name="txt01">Bem-vindo!</string>
+    <string name="txt02">Welcome!</string>
+    <string name="txt03">Seguindo as normas internas do Aeroporto de Confins, solicitamos que seja respondido uma breve sequência de perguntas sobre a Covid-19.</string>
+    <string name="txt04">In accordance with the Confins Airports internal rules, we ask that a short sequence of questions about Covid-19 be answered.</string>
+    <string name="txt05">Escolha o idioma | Choose the language</string>
+    <string name="rdbtn01">Português</string>
+    <string name="rdbtn02">English</string>
+    <string name="txt06">Em concordância com a LEI Nº 14.035, DE 11 DE AGOSTO DE 2020.</string>
+    <string name="txt07">In accordance with LAW No. 14,035, OF AUGUST 11, 2020.</string>
+    <string name="txt08">Aceito</string>
+    <string name="txt09">Accept</string>
+    <string name="todo">TODO</string>
+    <string name="_1">1</string>
+    <string name="txt10">Em todas as dependências do aeroporto o uso de máscara é obrigatório. \n \n O Aeroporto Internacional de Confins agrade sua compreensão.</string>
+    <string name="txt11">Lembre-se:</string>
+    <string name="txt12">Pergunta 01:</string>
+    <string name="txt13">O viajante está munido do teste dos tipos RT-PCR ou teste rápido de antígeno?</string>
+    <string name="txtSim">Sim</string>
+    <string name="txtNao">Não</string>
+    <string name="txt14">Pergunta 02:</string>
+    <string name="txt15">Qual o resultado do exame?</string>
+    <string name="txtPos">Positivo</string>
+    <string name="txtNeg">Negativo</string>
+    <string name="txtDialog">Para prosseguir com sua viagem é necessário ter realizado o teste para a Covid-19 e apresentar o resultado de negativo.
+        \n \n Para sua comodidade o Aeroporto Internacional de Confins possui um laboratório totalmente seguro para realizar o teste.
+        \n \n O teste custa R$150,00 e o resultado fica pronto em até 30 minutos.
+        \n \n Deseja realizar o teste?</string>
+    <string name="txtDialog2">Para sua segurança e a segurança de todos deste aeroporto, não será possível que você realize o embarque.
+        \n \n Recomendamos isolamento de 14 dias até o final dos sintomas e caso sinta falta de ar ou qualquer outro sintoma agravante procure ajuda médica.
+        \n \n Agradecemos a compreensão, nos vemos em breve!</string>
+    <string name="txtAlertPage01">Para prosseguir você precisa aceitar os termos e condições.</string>
+    <string name="txtAlertPage02">Para prosseguir você precisa responder todas as perguntas.</string>
+    <string name="txtDialog3">Devido ao não cumprimento das normas internas do Aeroporto Internacional de Confins não será possível prosseguir com sua viagem.
+        \n \n Procure um dos nossos atendentes para maiores informações.
+        \n \n Agradecemos a compreensão.
+    </string>
+    <string name="txt16">Preencha as informações abaixo:</string>
+    <string name="label">Label</string>
+    <string name="txt17">Muito Obrigado!</string>
+    <string name="txt18">Dirija-se até a recepção \n de atendimento ao cliente do \n terminal de embarque G-35 para prosseguir com sua solictação.</string>
+    <string name="txt19">Apresente o código abaixo \n para um dos nossos atendentes  \n para efetuar o pagamento do exame.</string>
+    <string name="txt20">Obs.: Tire print da tela para não perder o código!</string>
+    <string name="txt21">Você está apto para \n prosseguir com sua viagem!</string>
+    <string name="txt22">Dirija-se até o seu terminal de embarque e apresente esse comprovante:</string>
+</resources>
